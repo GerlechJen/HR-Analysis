@@ -59,6 +59,17 @@ Which are top 5 companies with highest jobs?
 
   
 ## EDA and Cleaning of Data 
+Removing Unnecessary Columns 
+The data cleaning step included getting rid of columns like lower salary range, upper salary range, data source which were of no use to our analysis.
+
+Removing Null Values and Errors
+I also removed NULL values, Not Specified values, errors, missing values, as they can cause errors while changing data types or performing certain calculations. 
+
+Changing Data Types 
+I also changed the data type of the Years of Experience column from string to whole integer. The data type of the date column weas also a string and I changed that to date type. 
+
+Replacing Values 
+The experience column had a value of -1 and I changed it to 1 using replace value option. The Qualification columns had two qualification names being  'Non-Degree Tertiary' and 'Non Degree Tertiary'. So I replaced the Non Degree Tertiary with Non-Degree Tertiaryas they represent the same qualification. 
 
 ## Visual Analytics 
 
